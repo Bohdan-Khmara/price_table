@@ -104,3 +104,30 @@ thead > tr:nth-child(3) > td {
 }
 /*END THEAD*/
 
+/*START TBODY*/
+tbody {
+    font-weight: 600;
+}
+
+tbody > tr > td:first-child {
+    padding: 15px 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+tbody > tr:nth-child(odd) > td:nth-child(odd) {
+    background-color: var(--secondary-bgc);
+}
+
+tbody > tr > td:nth-child(odd) {
+    background-color: var(--third-bgc);
+}
+
+tbody > tr > td:nth-child(even) {
+    background-color: var(--third-bgc);
+}
+
+tbody > tr:nth-child(even) > td:nth-child(even) {
+    background-color: var(--primary-color);
+}
+/*END TBODY*/
