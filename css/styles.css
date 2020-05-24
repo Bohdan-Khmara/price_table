@@ -131,3 +131,24 @@ tbody > tr:nth-child(even) > td:nth-child(even) {
     background-color: var(--primary-color);
 }
 /*END TBODY*/
+
+/*START TFOOT*/
+tfoot > tr > td {
+    padding: 10px 20px;
+}
+
+tfoot > tr > td > span{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #bcbcbc;
+    background-color: var(--secondary-bgc);
+    font-weight: 600;
+}
+
+tfoot > tr:nth-child(odd) > td:nth-child(odd) {
+    background-color: var(--secondary-bgc);
+}
+
+tfoot > tr > td:nth-child(even) {
+    background-color: var(--third-bgc);
+}
