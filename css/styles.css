@@ -1,5 +1,106 @@
 @import "reset.css";
 
-table, tr, td {
-    border: 1px solid black;
+body {
+    font-family: 'Work Sans', sans-serif;
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --primary-bgc: #fff;
+    --secondary-bgc: #dbdbdb;
+    --third-bgc: #ececec;
 }
+
+table{
+    margin: 30px auto;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+td {
+    text-align: center;
+}
+
+/*START THEAD*/
+thead {
+    font-weight: 900;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+thead > tr:first-child > td:first-child {
+    vertical-align: middle;
+    background-color: #7887ab;
+}
+
+thead > tr:first-child > td:nth-child(2) {
+    background-color: #4f628e;
+}
+
+thead > tr:nth-child(2) > td:first-child {
+    background-color: #4f628e;
+}
+
+thead > tr:nth-child(3) > td:first-child {
+    background-color: #4f628e;
+}
+/*end-first-headcol*/
+
+/*start-second-headcol*/
+thead > tr:first-child > td:nth-child(3) {
+    background-color: #2e4172;
+}
+
+thead > tr:nth-child(2) > td:nth-child(2) {
+    background-color: #2e4172;
+}
+
+thead > tr:nth-child(3) > td:nth-child(2) {
+    background-color: #2e4172;
+}
+/*end-second-headcol*/
+
+/*start-third-headcol*/
+thead > tr:first-child > td:nth-child(4) {
+    background-color: #162955;
+}
+
+thead > tr:nth-child(2) > td:nth-child(3) {
+    background-color: #162955;
+}
+
+thead > tr:nth-child(3) > td:nth-child(3) {
+    background-color: #162955;
+}
+/*end-third-headcol*/
+
+/*start-fourth-headcol*/
+thead > tr:first-child > td:nth-child(5) {
+    background-color: #061539;
+}
+
+thead > tr:nth-child(2) > td:nth-child(4) {
+    background-color: #061539;
+}
+
+thead > tr:nth-child(3) > td:nth-child(4) {
+    background-color: #061539;
+}
+/*end-fourth-headcol*/
+
+thead > tr:first-child > td:nth-child(n+2) {
+    padding-top: 20px;
+}
+
+thead > tr:nth-child(2) {
+    font-size: 30px;
+}
+
+thead > tr:nth-child(2) > td {
+    padding: 30px 50px 0 50px;
+    font-size: 40px;
+}
+
+thead > tr:nth-child(3) > td {
+    padding: 10px 0 10px 0;
+}
+/*END THEAD*/
+
